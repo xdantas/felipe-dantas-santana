@@ -1,0 +1,100 @@
+/* NAVBAR DEGRADE */
+.nav-green{
+    background-image: linear-gradient(to right, #004d40, #00897b) !important
+}
+
+
+/* LOGO BRANCO */
+.navbar-brand img {
+    filter: brightness(150%);
+    max-height: 30px;
+}
+
+/* NAV TELEFONE */
+.wpp-tel{
+  display: none;
+}
+
+/* HOME / IMG / TEXT / TITLE / WHATSAPP / TABLE */
+#home-img{
+  max-height: 300px;
+  margin-left: 10%;
+}
+
+.home-text{
+  padding-right: 100px;
+}
+
+#home-title{
+  margin-left: -70px;
+}
+
+.whatsapp-button {
+  display: none;
+}
+
+.dt_categorias{
+  --color: #ffffff !important;
+}
+
+.green-table{
+  background-image: linear-gradient(to left top, #dbdbdb, #b8b8b8) !important;
+}
+
+.green-table h2{
+  color: #00897b;
+  font-weight: 800;
+}
+
+table{
+  background-color: rgb(255, 255, 255);
+}
+
+#btn_add_detalhes{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+#btn_add_categorias{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+/* FOOTER */
+#img-footer {
+  filter: brightness(150%);
+  margin-top: 0px;
+  margin-bottom: 20px;
+  max-height: 50px;
+}
+
+
+
+@media only screen and (max-width: 650px) {
+#home-img{
+  display: none;
+}
+
+.home-text{
+  text-align: center;
+  align-content: center;
+
+  padding-top: 20%;
+  padding-bottom: 20%;
+
+  padding-right: 0px;
+}
+
+#home-title{
+  margin-left: 0px;
+}
+
+.whatsapp-button {
+  display: block;
+}
+
+.wpp-tel{
+  display: block;
+}
+
+}
+
+/* FIM */
